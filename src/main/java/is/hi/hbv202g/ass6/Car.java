@@ -1,13 +1,13 @@
 package is.hi.hbv202g.ass6;
 
 class Car {
-    static String name;
+    String name;
 
     Car(String name) {
         this.name = name;
     }
 
-    public static String getNameOfCar() {
+    public String getNameOfCar() {
         return name;
     }
 }
